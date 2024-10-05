@@ -1,0 +1,66 @@
+Type: MC
+Question: Who is the father of C language?
+Option 1: Steve Jobs
+Option 2: James Gosling
+Option 3: Dennis Ritchie
+Option 4: Rasmus Lerdorf
+Answer: 3
+---
+Type: MC
+Question: Which of the following is not a valid C variable name?
+Option 1: int number;
+Option 2: float rate;
+Option 3: int variable_count;
+Option 4: int $main;
+Answer: 4
+---
+Type: MC
+Question: Which is valid C expression?
+Option 1: int my_num = 100,000;
+Option 2: int my_num = 100000;
+Option 3: int my num = 1000;
+Option 4: int $my_num = 10000;
+Answer: 2
+---
+Type: MC
+Question: Which of the following cannot be a variable name in C?
+Option 1: volatile
+Option 2: true
+Option 3: friend
+Option 4: export
+Answer: 1
+---
+Type: MC
+Question: Which keyword is used to prevent any changes in the variable within a C program?
+Option 1: immutable
+Option 2: mutable
+Option 3: const
+Option 4: volatile
+Answer: 3
+---
+Type: MC
+Question: What is an example of iteration in C?
+Option 1: for
+Option 2: while
+Option 3: do-while
+Option 4: all of the mentioned
+Answer: 4
+---
+Type: P
+Question: Write a C program that prints "4".
+Answer: 4
+---
+
+Type: P
+Question: Write a C Program that prints "cat".
+Answer: cat
+---
+Type: P
+Question: Write a C Program to print "Hello World".
+Answer: Hello World
+---
+Type: P
+Question: Write a C program that prints the result of adding 1 to 2.
+Answer: 3
+---
+

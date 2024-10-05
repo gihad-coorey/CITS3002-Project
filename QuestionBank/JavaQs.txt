@@ -1,0 +1,64 @@
+Type: MC
+Question: Who invented Java Programming?
+Option 1: Guido van Rossum
+Option 2: James Gosling
+Option 3: Dennis Ritchie
+Option 4: Bjarne Stroustrup
+Answer: 2
+---
+Type: MC
+Question: Which statement is true about Java?
+Option 1: Java is a sequence-dependent programming language
+Option 2: Java is a code dependent programming language
+Option 3: Java is a platform-dependent programming language
+Option 4: Java is a platform-independent programming language
+Answer: 4
+---
+Type: MC
+Question: Which component is used to compile, debug and execute the java programs?
+Option 1: JRE
+Option 2: JIT
+Option 3: JDK
+Option 4: JVM
+Answer: 3
+---
+Type: MC
+Question: Which one of the following is not a Java feature?
+Option 1: Object-oriented
+Option 2: Use of pointers
+Option 3: Portable
+Option 4: Dynamic and Extensible
+Answer: 2
+---
+Type: MC
+Question: Which of these cannot be used for a variable name in Java?
+Option 1: identifier & keyword
+Option 2: identifier
+Option 3: keyword
+Option 4: none of the mentioned
+Answer: 3
+---
+Type: MC
+Question: What is the extension of java code files?
+Option 1: .js
+Option 2: .txt
+Option 3: .class
+Option 4: .java
+Answer: 4
+---
+Type: P
+Question: Write a Java Program to print "Hello World!"
+Answer: Hello World!
+---
+Type: P
+Question: Write a Java Program that prints 3 factorial.
+Answer: 6
+---
+Type: P
+Question: Write a Java Program that prints "dog".
+Answer: dog
+---
+Type: P
+Question: Write a Java Program that prints 5.
+Answer: 5
+---

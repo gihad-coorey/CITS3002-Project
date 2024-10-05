@@ -1,0 +1,64 @@
+Type: MC
+Question: Who developed Python Programming Language?
+Option 1: Wick van Rossum
+Option 2: Rasmus Lerdorf
+Option 3: Guido van Rossum
+Option 4: Niene Stom
+Answer: 3
+---
+Type: MC
+Question: Which of the following is the correct extension of the Python file?
+Option 1: .python
+Option 2: .pl
+Option 3: .py
+Option 4: .p
+Answer: 3
+---
+Type: MC
+Question: Which of the following is used to define a block of code in Python language?
+Option 1: Indentation
+Option 2: Key
+Option 3: Brackets
+Option 4: All of the mentioned
+Answer: 1
+---
+Type: MC
+Question: Which keyword is used for function in Python language?
+Option 1: Function
+Option 2: def
+Option 3: Fun
+Option 4: Define
+Answer: 2
+---
+Type: MC
+Question: Which of the following character is used to give single-line comments in Python?
+Option 1: //
+Option 2: #
+Option 3: !
+Option 4: /*
+Answer: 2
+---
+Type: MC
+Question: Which of the following functions is a built-in function in python?
+Option 1: factorial()
+Option 2: print()
+Option 3: seed()
+Option 4: sqrt()
+Answer: 2
+---
+Type: P
+Question: Write python code that prints 7 squared.
+Answer: 49
+---
+Type: P
+Question: Write python code that prints True.
+Answer: True
+---
+Type: P
+Question: Write python code that prints "frog".
+Answer: frog
+---
+Type: P
+Question: Write python code that prints 1+1.
+Answer: 2
+---

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>test</title>
+        <link rel="stylesheet" href="./main.css" />
+
+        <!-- jQuery library -->
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"
+        ></script>
+        <script src="./test.js"></script>
+        <script src="./logout.js"></script>
+    </head>
+    <body>
+        <form  onsubmit="clearCookies()">
+            <button class="button blue" type="submit">Logout</button>
+        </form>
+        <div class="test-container">
+            <div class="question">
+                <div class="question-selector">
+                    <div class="question-link" data-question="1">Q1</div>
+                    <div class="question-link" data-question="2">Q2</div>
+                    <div class="question-link" data-question="3">Q3</div>
+                    <div class="question-link" data-question="4">Q4</div>
+                    <div class="question-link" data-question="5">Q5</div>
+                    <div class="question-link" data-question="6">Q6</div>
+                    <div class="question-link" data-question="7">Q7</div>
+                    <div class="question-link" data-question="8">Q8</div>
+                    <div class="question-link" data-question="9">Q9</div>
+                    <div class="question-link" data-question="10">Q10</div>
+                </div>
+
+                <div class="question-attempt">
+                    <div class="attempt-box"></div>
+                    <div class="attempt-box"></div>
+                    <div class="attempt-box"></div>
+                </div>
+
+                <div class="question-content">
+                    <!-- Set in test.js -->
+                </div>
+                <button class="button green" id='submit-button' onclick="submitQuestion()">Submit Current Question</button>
+
+                <div class="question-answer" style="display: none">
+                    <div class="student-answer">
+                        <div class="student-answer-title">Your Answer:</div>
+                        <div class="student-answer-content"></div>
+                    </div>
+                    <div class="expected-answer">
+                        <div class="expected-answer-title">Expected Answer:</div>
+                        <div class="expected-answer-content"></div>
+                    </div>
+                </div>
+                <div class="total-score"><span id="current-score">0</span>/30</div>
+            </div>
+        </div>
+    </body>
+</html>

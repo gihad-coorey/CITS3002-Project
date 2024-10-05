@@ -1,0 +1,37 @@
+.results-container {
+    background-color: var(--bg2);
+    padding: 1rem;
+    width: 90%;
+    max-width: 500px;
+
+    min-height: 10rem;
+
+    border: 1px solid var(--bg3);
+    border-radius: 1rem;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-align: center;
+}
+
+#title {
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+#results {
+    font-size: 3rem;
+
+    /* gradient text !! */
+    background: linear-gradient(
+        to right, #f32170, #ff6b08,
+         #cf23cf, #f32170);
+    background-size: 200%;
+    animation: background-pan 3s linear infinite;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>test</title>
+        <link rel="stylesheet" href="./main.css" />
+        <link rel="stylesheet" href="./results.css" />
+
+        <!-- jQuery library -->
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"
+        ></script>
+
+        <script src="./results.js"></script>
+        <script src="./logout.js"></script>
+    </head>
+    <body>
+        <form action="/login" onsubmit="clearCookies()">
+            <button class="button blue" type="submit">Logout</button>
+        </form>
+        <div class="results-container">
+            <div id="username"></div>
+            <h1 id="title">Your results</h1>
+            <div id="results"></div>
+        </div>
+    </body>
+</html>
